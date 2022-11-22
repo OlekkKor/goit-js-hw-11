@@ -10,8 +10,6 @@ const galleryEl = document.querySelector(".js-gallery");
 const loadMoreBtn = document.querySelector(".js-load-more");
 const resetBtn = document.querySelector(".js-reset");
 
-const bodyJs = document.querySelector("body");
-
 
 const lightbox = new SimpleLightbox('.photo-card a', {
     captionDelay: 250,
@@ -21,8 +19,6 @@ const searchImg = new SearchImg();
 
 console.log();
 
-
-bodyJs.classList.add("gradient");
 
 function onSearchFormSubmit(event) {
     event.preventDefault();

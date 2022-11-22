@@ -17,20 +17,15 @@ body {
   color: #212121;
   line-height: 1.5;
 
-  
- 
-}
-
-
-.gradient{
   height: 100%;
   background: linear-gradient(
     to bottom,
-  orange 10%,
-  white 35%,
+  orange 7%,
+  white 30%,
   white 90%,
   orange 100%
   );
+ 
 }
 
 img {
@@ -49,6 +44,12 @@ img {
   gap:10px;
 }
 
+input, textarea {
+  outline: none;
+  border: none;
+  box-shadow: -11px 6px 1em 0px #ff9a16;
+  }
+
 
 .input__form{
   height: 50px;
@@ -60,7 +61,8 @@ img {
 }
 
 .input__form:hover{
-  outline: 2px solid orange;
+  box-shadow: -11px 6px 1em 0px #c57000;
+  
 }
 
 .gallery{
