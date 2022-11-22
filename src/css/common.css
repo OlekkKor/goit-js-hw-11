@@ -1,0 +1,156 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%;
+}
+
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+
+  
+ 
+}
+
+
+.gradient{
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+  orange 10%,
+  white 35%,
+  white 90%,
+  orange 100%
+  );
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+
+.search-form{
+  padding-top: 100px;
+  margin-bottom: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+}
+
+
+.input__form{
+  height: 50px;
+  width: 40%;
+  border-radius: 10px;
+  font-size: 20px;
+  text-indent: 0.7em;
+  
+}
+
+.input__form:hover{
+  outline: 2px solid orange;
+}
+
+.gallery{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap:30px;
+}
+
+
+.photo-card{
+  object-fit: cover;
+  
+}
+
+.photo-card:hover{
+  box-shadow: 0em 0 0.3em orange;
+}
+
+.image{
+  width: 550px;
+  height: 370px;
+}
+
+
+button{
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+
+  border-radius: 20px;
+  border: 2px solid rgb(135, 79, 0);
+  
+  font-size: 20px;
+  color: white;
+  background-color: rgb(255, 123, 0);
+}
+
+button:hover{
+  box-shadow: 0em 0 1em rgb(255, 234, 196);
+}
+
+.buttons{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+
+.js-load-more:hover{
+  box-shadow: 0em 0 0.6em rgb(255, 166, 1);
+}
+
+
+.js-reset:hover{
+  box-shadow: 0em 0 0.6em rgb(255, 166, 1);
+}
+
+
+
+.is-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.info{
+  display: flex;
+  gap:40px;
+  justify-content: center;
+
+  border: 1px solid #c2c2c2;
+}
+
+.info-item{
+  font-size: 20px;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  align-items: center;
+}
