@@ -35,8 +35,8 @@ img {
 
 
 .search-form{
-  padding-top: 100px;
-  margin-bottom: 70px;
+  padding-top: 10px;
+  margin-bottom: 50px;
 
   display: flex;
   align-items: center;
@@ -53,7 +53,7 @@ input, textarea {
 
 .input__form{
   height: 50px;
-  width: 40%;
+  width: 30%;
   border-radius: 10px;
   font-size: 20px;
   text-indent: 0.7em;
@@ -88,6 +88,12 @@ input, textarea {
   height: 350px;
 }
 
+
+.title{
+  font-size: 35px;
+  text-align: center;
+  padding-top: 60px;
+}
 
 button{
   display: inline-block;

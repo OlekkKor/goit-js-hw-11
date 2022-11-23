@@ -16,7 +16,7 @@ export default class SearchImg {
             key: '31496924-d8fd8818ff2a696d197ea85c0',
             q: this.name,
             page: this.page,
-            per_page: 12,
+            per_page: 40,
             image_type: 'photo',
             orientation: 'horizontal',
             safesearch: true,
